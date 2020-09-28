@@ -1,0 +1,72 @@
+<html>
+<head>
+	<title>Our Services</title>
+	<link rel="stylesheet" type="text/css" href="hw3.css">
+	<style>
+		nav a {text-decoration: none;text-align:center; margin:auto;}
+	</style>
+</head>
+<header>
+	<div class="name">Groceries2U</div>
+	<hr/>
+	<nav>
+		<a href="index.html">Home</a>
+		<a href="service.html">Services</a>
+		<a href="contact.html">Contact Us</a>
+	</nav>
+</header>
+<body>
+	<div class="text">
+		<br />
+		Book your grocery delivery schedule here:
+		<br /><br/>
+		<div class="container">
+			<form action='#'>
+				Name: 
+					<input type="text" name='name' id='the_name'>
+				<br />
+				<br />
+				Days (pick all that work for you): <br />
+					<div class="choices">
+						<input type="checkbox" name="Sunday" value="U">&nbspSunday<br />
+						<input type="checkbox" name="Monday" value="M">&nbspMonday<br />
+						<input type="checkbox" name="Tuesday" value="T">&nbspTuesday<br />
+						<input type="checkbox" name="Wednesday" value="W">&nbspWednesday<br />
+						<input type="checkbox" name="Thursday" value="R">&nbspThursday<br />
+						<input type="checkbox" name="Friday" value="F">&nbspFriday<br />
+						<input type="checkbox" name="Saturday" value="S">&nbspSaturday<br />
+					</div>
+				<br />
+				How Often:<br />
+					<div class="choices">
+						<input type="radio" name="frequency" value="8">&nbspTwice a week<br />
+						<input type="radio" name="frequency" value="4">&nbspOnce a week<br />
+						<input type="radio" name="frequency" value="2">&nbspOnce every two weeks<br />
+						<input type="radio" name="frequency" value="1">&nbspOnce a month<br />
+					</div>
+				<br />
+				Preferred Supermarket:
+					<input type="text" name='where' id='supermarket'>
+				<br />
+				<br />
+				Address:
+					<input type="text" name='address' id='address'>
+				<br />
+				<br />
+				Grocery List:
+				<br />
+					<textarea rows="10" cols="40" type="text" name='list' id='list'></textarea>
+				<br />
+				<br />
+
+				<input type="submit" style="font-size:1em">
+				<br />
+				<br />
+			</form>
+		</div>
+	</div>
+</body>
+<footer>
+	
+</footer>
+</html>
